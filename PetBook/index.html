@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PetBook</title>
+</head>
+<body>
+    <h1>Welcome to PetBook</h1>
+
+    <p><h2>PetBook is a Web most popular of the world. We have a millions users.</h2></p>
+    <p><h1>Sign up, it's very easy</h1></p>
+
+
+    <form action="https://formspree.io/f/xeqvnakp" method="POST">
+        <label for="">What is your Pet? </label>
+        <select name="type_pet" id="" required>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option> 
+            <option value="bird">Bird</option>
+            <option value="lion">Lion</option>
+            <option value="snake">Snake</option>
+            <option value="tiger">Tiger</option>
+            
+        </select> <br><br>
+        <label>Male / Female: </label><input type="radio" name="genero" value="Male" required>M<input type="radio" name="genero" value="Female" required>F</label><br><br>
+        <label>Name: <input type="text" name="username" placeholder="Name of your Pet" required></label><br><br>
+        <label>Age: <input type="number" name="edad" placeholder="Age of your Pet" required></label><br><br>
+        <label>Color: <input type="color" name="color" placeholder="Color of your Pet" required></label><br><br>
+        <label>Description: <br><textarea placeholder="Tell us about your Pet" rows="10" cols="40" required></textarea></label><br><br>
+        <label>Mail: <input type="mail" name="edad" placeholder="Your mail address" required></label><br><br>
+        <label>Password: <input type="password" name="contraseña", placeholder="Password"></label><br><br>
+        <label><input type="checkbox" name="bases_y_condiciones" value="ok" required>I'm agree with the terms and conditions</label><br>
+        <input type="submit" value="Submit">
+      </form>
+        
+        
+</body>
+</html>

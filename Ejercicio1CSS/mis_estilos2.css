@@ -1,0 +1,79 @@
+body{
+    background-color: lightslategray;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color:#551d00;
+}
+
+h3{
+    color:rgb(88, 156, 234);
+}
+
+p{
+    color:brown;background-color: rgb(142, 251, 98);
+}
+
+img{
+    height: 100px ; 
+    width:  100px ;
+}
+
+.imperio{
+    background-color: red;
+    
+}
+
+#imperio * {
+    background-color: black;
+    color: red;
+}
+
+.rebeldes{
+    background-color: rgba(0, 0, 255, 0.39);
+}
+
+#rebeldes * {
+    background-color: #ffa500 ;
+    color:  rgb(255,255,255);
+}
+
+#darthVader {
+    font-size: 40px;
+  }
+
+#luke{
+    font-style: italic;
+}
+
+#anakin * {
+    color: orange;
+    font-style: oblique;
+}
+
+#hijodeanakin * {
+    color: blue;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+.soldado{
+    border-top-style: dashed;
+    border-right-style: double;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+
+    letter-spacing: 0.2cm
+}
+
+.sapoyo {
+    text-align: center;
+}
+
+.naves {
+    text-transform: uppercase;
+}

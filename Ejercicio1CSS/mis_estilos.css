@@ -1,0 +1,24 @@
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color:#BA521F;
+}
+
+h3{
+    color:rgb(120,234,88);
+}
+
+p{
+    color:brown;background-color: greenyellow;
+}
+
+img{
+    height: 100px ; 
+    width:  100px ;
+}
